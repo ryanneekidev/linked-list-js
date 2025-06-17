@@ -90,6 +90,19 @@ find(value)
 Returns the 1-based index of the first node with the given `value`.  
 - If not found or the list is empty, prints a message.
 
+# Implementation Details
+
+- Uses a singly linked list structure, with each node pointing to the next node.
+- Implements list operations including appending, prepending, popping, searching, and size calculation.
+- Traverses nodes via iteration, maintaining references for efficient list manipulation.
+- Performs boundary and type checking to ensure only valid nodes are added.
+- Demonstrates understanding of:
+  - **Pointer manipulation** for dynamic data structures.
+  - **List traversal and search algorithms**.
+  - **Node-based data structure design**.
+  - **Defensive programming** (handling edge cases and invalid input).
+- Provides a foundation for more complex data structure operations and is a standard building block for algorithmic problem-solving.
+
 ---
 
 For more details, see the [linkedList.js source](https://github.com/ryanneekidev/linked-list-js/blob/main/linkedList.js).
